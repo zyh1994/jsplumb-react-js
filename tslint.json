@@ -1,0 +1,6 @@
+{
+//  "extends": "@digest/tslint-config",
+//  "rules": {
+//    "no-implicit-dependencies": ["src"]
+//  }
+}

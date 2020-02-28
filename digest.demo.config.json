@@ -1,0 +1,7 @@
+{
+  "cssModules": true,
+  "dashboard": false,
+  "reportPath": "reports/demo",
+  "shortName": "demo",
+  "srcPath": "demo"
+}

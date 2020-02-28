@@ -1,0 +1,25 @@
+.jtk-connector {
+  filter: drop-shadow(0 3px 1px rgba(0, 0, 0, 0.16)) drop-shadow(0 3px 1px rgba(0, 0, 0, 0.23));
+}
+
+.jtk-endpoint {
+  filter: drop-shadow(0 3px 4px rgba(0, 0, 0, 0.16)) drop-shadow(0 3px 2px rgba(0, 0, 0, 0.23));
+}
+
+.jtk-drag-selected {
+  z-index: 3;
+}
+
+.jtk-connector.jtk-dragging,
+.jtk-endpoint.jtk-dragging {
+  z-index: 2;
+  cursor: grab;
+}
+
+.jtk-endpoint.jtk-dragging::after {
+  position: absolute;
+  margin: -50px;
+  padding: 50px;
+  content: '';
+  cursor: grab;
+}

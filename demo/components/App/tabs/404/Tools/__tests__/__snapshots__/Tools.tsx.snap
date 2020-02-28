@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`404 tools 1`] = `
+<div
+  className="jspr-tools"
+>
+  <h4>
+    404
+  </h4>
+</div>
+`;

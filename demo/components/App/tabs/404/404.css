@@ -1,0 +1,18 @@
+.E404 {
+  min-width: 280px;
+  height: calc(100% - 80px);
+  padding: 20px;
+  border: 20px solid black;
+  border-image:
+    repeating-linear-gradient(
+      45deg,
+      black,
+      black 2px,
+      #fff 2px,
+      #fff 14px,
+      black 14px,
+      black 16px,
+      #fff 16px,
+      #fff 28px
+    ) 20 20;
+}

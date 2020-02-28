@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabA tools 1`] = `
+<div
+  className="jspr-tools"
+>
+  <h4>
+    Complex Diagram Tools
+  </h4>
+  <button
+    onClick={[Function]}
+  >
+    Add Node
+  </button>
+  <br />
+  <br />
+  <form>
+    <label
+      htmlFor="ui-orientation"
+    >
+      <input
+        max="2"
+        min="0.25"
+        name="orientation"
+        onChange={[Function]}
+        step="any"
+        type="range"
+        value={0}
+      />
+      Scale 
+      0
+    </label>
+  </form>
+  <br />
+  Selections:
+  <code
+    className="jspr-code"
+  >
+    [
+    <br />
+    ]
+  </code>
+  <br />
+  <button
+    onClick={[Function]}
+  >
+    Remove Nodes
+  </button>
+</div>
+`;

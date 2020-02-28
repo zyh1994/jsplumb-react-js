@@ -1,0 +1,5 @@
+.settings {
+  height: calc(100% - 40px);
+  padding: 20px;
+  background-color: #fff;
+}

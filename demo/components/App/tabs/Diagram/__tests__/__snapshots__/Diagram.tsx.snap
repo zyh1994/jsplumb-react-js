@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home content 1`] = `
+<div
+  className="jspr-canvas"
+>
+  <AutoSizer
+    disableHeight={false}
+    disableWidth={false}
+    onResize={[Function]}
+    style={Object {}}
+  >
+    <Component />
+  </AutoSizer>
+  <Graph
+    bridge={[Function]}
+    className=""
+    connections={Array []}
+    height={500}
+    id="DAG"
+    maxScale={2}
+    minScale={0.25}
+    onAddConnection={[Function]}
+    onPanEnd={[Function]}
+    onRemoveConnection={[Function]}
+    onSelect={[Function]}
+    onZoom={[Function]}
+    passOnProps={false}
+    renderOnChange={false}
+    scale={1}
+    scaleFactor={1.224744871391589}
+    settings={Object {}}
+    style={Object {}}
+    styleName=""
+    width={500}
+    xOffset={0}
+    yOffset={0}
+  />
+</div>
+`;

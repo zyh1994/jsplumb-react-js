@@ -1,0 +1,3 @@
+{
+  "extends": "@digest/stylelint-config"
+}

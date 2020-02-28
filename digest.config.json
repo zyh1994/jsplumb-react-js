@@ -1,0 +1,6 @@
+{
+  "cssModules": true,
+  "library": true,
+  "reportPath": "reports/lib",
+  "shortName": "jspr"
+}

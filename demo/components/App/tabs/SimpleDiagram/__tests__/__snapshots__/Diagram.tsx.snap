@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home content 1`] = `
+<div
+  className="jspr-canvas"
+>
+  <AutoSizer
+    disableHeight={false}
+    disableWidth={false}
+    onResize={[Function]}
+    style={Object {}}
+  >
+    <Component />
+  </AutoSizer>
+  <Graph
+    bridge={[Function]}
+    className=""
+    connections={
+      Array [
+        Object {
+          "id": "connection1",
+          "source": "node1",
+          "target": "node2",
+        },
+      ]
+    }
+    height={500}
+    id="simpleDiagram"
+    maxScale={2}
+    minScale={0.25}
+    onAddConnection={[Function]}
+    onPanEnd={[Function]}
+    onRemoveConnection={[Function]}
+    onZoom={[Function]}
+    passOnProps={false}
+    renderOnChange={false}
+    scale={1}
+    scaleFactor={1.224744871391589}
+    settings={Object {}}
+    style={Object {}}
+    styleName=""
+    width={500}
+    xOffset={0}
+    yOffset={0}
+  >
+    <Node
+      allowLoopback={false}
+      className="jspr-node"
+      diagramId=""
+      dragSettings={Object {}}
+      id="node1"
+      key="node1"
+      onDrop={[Function]}
+      sourceSettings={Object {}}
+      style={
+        Object {
+          "left": 272.5,
+          "top": 233,
+        }
+      }
+      styleName="node"
+      targetSettings={Object {}}
+      type="both"
+    >
+      <Component />
+    </Node>
+    <Node
+      allowLoopback={false}
+      className="jspr-node"
+      diagramId=""
+      dragSettings={Object {}}
+      id="node2"
+      key="node2"
+      onDrop={[Function]}
+      sourceSettings={Object {}}
+      style={
+        Object {
+          "left": 672.5,
+          "top": 233,
+        }
+      }
+      styleName="node"
+      targetSettings={Object {}}
+      type="both"
+    >
+      <Component />
+    </Node>
+  </Graph>
+</div>
+`;

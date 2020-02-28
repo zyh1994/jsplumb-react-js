@@ -1,0 +1,8 @@
+{
+  "extends": "./node_modules/@digest/typescript/src/tsconfig.json",
+  "compilerOptions": {
+    "keyofStringsOnly": true,
+    "module": "esNext",
+    "strictNullChecks": false
+  }
+}

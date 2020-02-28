@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error 404 page 1`] = `
+<div
+  className="jspr-E404"
+>
+  <h4>
+    404
+  </h4>
+</div>
+`;

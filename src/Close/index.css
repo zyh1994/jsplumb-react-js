@@ -1,0 +1,20 @@
+.close-conn {
+  font-size: 0.7em;
+  font-weight: 700;
+  line-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 14px;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+  pointer-events: initial;
+  color: #fff;
+  border-radius: 7px;
+  background-color: #000;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
